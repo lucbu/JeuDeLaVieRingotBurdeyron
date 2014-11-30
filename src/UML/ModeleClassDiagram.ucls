@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.2" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="modele.Template" project="JeuDeLaVieRingotBurdeyron" 
+    file="/JeuDeLaVieRingotBurdeyron/src/modele/Template.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="148" width="134" x="192" y="87"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="modele.Simulable" project="JeuDeLaVieRingotBurdeyron" 
+    file="/JeuDeLaVieRingotBurdeyron/src/modele/Simulable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="58" width="103" x="258" y="445"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="modele.Grille" project="JeuDeLaVieRingotBurdeyron" 
+    file="/JeuDeLaVieRingotBurdeyron/src/modele/Grille.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="130" width="214" x="590" y="87"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="modele.SimulableGrille" project="JeuDeLaVieRingotBurdeyron" 
+    file="/JeuDeLaVieRingotBurdeyron/src/modele/SimulableGrille.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="76" width="131" x="329" y="293"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="modele.Regle" project="JeuDeLaVieRingotBurdeyron" 
+    file="/JeuDeLaVieRingotBurdeyron/src/modele/Regle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="575" y="347"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="modele.Simulation" project="JeuDeLaVieRingotBurdeyron" 
+    file="/JeuDeLaVieRingotBurdeyron/src/modele/Simulation.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="112" width="102" x="187" y="293"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <enumeration id="7" language="java" name="modele.ModeEnum" project="JeuDeLaVieRingotBurdeyron" 
+    file="/JeuDeLaVieRingotBurdeyron/src/modele/ModeEnum.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="112" width="134" x="851" y="293"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </enumeration>  
+  <class id="8" language="java" name="modele.Case" project="JeuDeLaVieRingotBurdeyron" 
+    file="/JeuDeLaVieRingotBurdeyron/src/modele/Case.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="112" width="131" x="680" y="293"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="modele.Parametre" project="JeuDeLaVieRingotBurdeyron" 
+    file="/JeuDeLaVieRingotBurdeyron/src/modele/Parametre.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="166" width="176" x="370" y="87"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <association id="10">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="11" name="grille"/>      
+      <multiplicity id="12" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="13">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="14">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="15" name="mode"/>      
+      <multiplicity id="16" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="17">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="18" name="regles"/>      
+      <multiplicity id="19" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="20">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <association id="21">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="22" name="cases"/>      
+      <multiplicity id="23" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="false" package="false" protected="false" private="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
